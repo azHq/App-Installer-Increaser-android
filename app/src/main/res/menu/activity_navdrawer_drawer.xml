@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/nav_app_upload"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="App Upload" />
+        <item
+            android:id="@+id/nav_earn"
+            android:icon="@drawable/ic_business"
+            android:title="Earn" />
+        <item
+            android:id="@+id/nav_myapps"
+            android:icon="@drawable/ic_apps"
+            android:title="My Apps" />
+    </group>
+
+    <item android:title="Community">
+        <menu>
+            <item
+                android:id="@+id/nav_friends"
+                android:icon="@drawable/ic_allfriends"
+                android:title="All Friends"
+                />
+            <item
+                android:id="@+id/nav_developers"
+                android:icon="@drawable/ic_alldevelopers"
+                android:title="All Developers" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share Problem" />
+
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help"
+                android:title="Help" />
+
+        </menu>
+    </item>
+
+</menu>

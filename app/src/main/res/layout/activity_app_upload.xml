@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background3"
+    android:layout_height="match_parent"
+    tools:context=".AppUpload">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar"
+        android:layout_width="399dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/roundbutton5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="158dp"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="serif"
+            android:paddingTop="4dp"
+            android:text="Earn"
+            android:textAlignment="center"
+            android:textColor="#2340e7"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/earn"
+            android:layout_width="158dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="12$"
+            android:textAlignment="center"
+            android:textColor="#2340e7"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="76dp"
+        android:background="@drawable/roundbutton5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="158dp"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="serif"
+            android:paddingTop="4dp"
+            android:text="Installs"
+            android:textAlignment="center"
+            android:textColor="#2340e7"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/install"
+            android:layout_width="158dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="123"
+            android:textAlignment="center"
+            android:textColor="#2340e7"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="186dp"
+        android:background="@drawable/roundbutton5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="158dp"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="serif"
+            android:paddingTop="4dp"
+            android:text="Per Install"
+            android:textAlignment="center"
+            android:textColor="#2340e7"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/uninstall"
+            android:layout_width="158dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="Cost 1$"
+            android:textAlignment="center"
+            android:textColor="#2340e7"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginTop="186dp"
+        android:background="@drawable/roundbutton5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="158dp"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:fontFamily="serif"
+            android:paddingTop="4dp"
+            android:text="To UpLoad"
+            android:textAlignment="center"
+            android:textColor="#2340e7"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/clicks"
+            android:layout_width="158dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:fontFamily="serif"
+            android:text="Need 4$"
+            android:textAlignment="center"
+            android:textColor="#2340e7"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="271dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="363dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="6dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/ic_star" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50 Installs 1$"
+                android:textColor="#18099e"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginStart="107dp"
+                android:background="@drawable/roundbutton5"
+                android:text="BUY"
+                android:textColor="#15138a" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="363dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="6dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/ic_star" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="100 Installs 1$"
+                android:textColor="#49900c"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginStart="96dp"
+                android:background="@drawable/roundbutton5"
+                android:text="BUY"
+                android:textColor="#659f0d" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="363dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="6dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/ic_star" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150 Installs 1$"
+                android:textColor="#d78e08"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginStart="96dp"
+                android:background="@drawable/roundbutton5"
+                android:text="BUY"
+                android:textColor="#c67615" />
+
+
+        </LinearLayout>
+
+
+        <EditText
+            android:layout_width="347dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/roundbutton5"
+            android:fontFamily="serif"
+            android:hint="Write your app link or project name"
+            android:textColorHint="#780754"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="363dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="38dp"
+                android:text="Cancel"
+                android:background="@drawable/roundbutton5"
+                android:textColor="#dd4a1d"/>
+
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="38dp"
+                android:layout_marginStart="96dp"
+                android:background="@drawable/roundbutton5"
+                android:text="Upload"
+                android:textColor="#c67615" />
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
